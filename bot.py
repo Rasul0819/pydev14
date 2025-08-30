@@ -30,7 +30,7 @@ async def send_hi(sms:types.Message):
                              reply_markup=main_menu)
             break
     else:   
-        await sms.answer(text='Salem',
+        await sms.answer(text='Assalamu aleykum',
                         reply_markup=reg_menu
                         )
 
